@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1097780817311",
+    "project_id": "gac8-34342",
+    "storage_bucket": "gac8-34342.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097780817311:android:2130a9f9ba4919c4da21aa",
+        "android_client_info": {
+          "package_name": "com.akn.gac8"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097780817311-kfkp8jfmo3old8qd5e2d79r4ppcpolee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrcIspVjtWslaRqyYsOQbHmxs0gNyD5K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097780817311-kfkp8jfmo3old8qd5e2d79r4ppcpolee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097780817311:android:36eaccdcf8d9d4b4da21aa",
+        "android_client_info": {
+          "package_name": "com.app.bloggernewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097780817311-kfkp8jfmo3old8qd5e2d79r4ppcpolee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrcIspVjtWslaRqyYsOQbHmxs0gNyD5K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097780817311-kfkp8jfmo3old8qd5e2d79r4ppcpolee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

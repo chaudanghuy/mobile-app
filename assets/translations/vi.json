@@ -1,0 +1,111 @@
+{
+
+  "welcome to" : "Chào mừng",
+  "login to continue": "Đăng nhập để tiếp tục",
+  "welcome-intro": "Khám phá những tin tức và sự kiện mới nhất xảy ra tức thời. Theo dõi và nhận thông báo về tất cả các bài viết của chúng tôi và chia sẻ chúng với bạn bè của bạn.",
+  "skip": "Bỏ qua",
+
+  "don't have an account?" : "Chưa có tài khoản?",
+  "create" : "Tạo mới",
+  "create account" : "Tạo tài khoản",
+  "login" : "Đăng nhập",
+  "login to access all features" : "Đăng nhập để truy cập tất cả các tính năng",
+  "follow the simple steps": "Thực hiện theo các bước dễ dàng",
+  "already have an account?": "Đã có tài khoản",
+
+  "search contents" : "Tìm kiếm",
+  "popular contents" : "Nội dung phổ biến",
+  "recent contents" : "Tin tức mới nhất",
+  "view all" : "Xem tất cả",
+
+  "search" : "Tìm kiếm",
+  "search for contents" : "Tìm kiếm theo nội dung",
+  "recent searches" : "Tìm kiếm gần đây",
+  "search-description" :  "Nhập từ khóa của nội dung bạn muốn tìm kiếm",
+  "try again" : "Thử lại",
+  "categories" : "Danh mục",
+
+  "clear all" : "Xóa tất cả",
+  "bookmark is empty" : "Trống",
+  "save your favourite contents here" : "Lưu nội dung yêu thích",
+  "added to your bookmark" : "Thêm vào dấu trang",
+
+  "no categories found": "Không tìm thấy danh mục nào",
+  "no contents found" : "Không tìm thấy bài viết",
+  "no internet" : "Mất kết nối internet",
+  "check your internet connection" : "Vui lòng kiểm tra đường truyền của bạn",
+  "contents you might love" : "Có thể bạn yêu thích",
+  
+  "comments" : "Bình luận",
+  "view comments" : "Xem bình luận",
+  "write a comment" : "Bình luận", 
+  "no comments found" : "Chưa có bình luận",
+  "be the first to comment" : "Bình luận đầu tiên",
+  "login to make comments" : "Đăng nhập để bình luận",
+  "comment success title" : "Đã gửi bình luận thành công",
+  "comment success description" : "Nhận xét của bạn đã được gửi để xem xét. Bạn sẽ thấy nhận xét của mình trong danh sách này sau khi xem xét.\nCảm ơn bạn",
+  "you can't delete others comment" : "Bạn không thể xóa bình luận của người khác",
+  "you can't edit others comment" : "Bạn không thể chỉnh sửa bình luận của người khác",
+  "update comment" : "cập nhật bình luận",
+
+  "delete" : "Xóa",
+  "update" : "Cập nhật",
+
+  "notifications" : "Thông báo",
+  "notification details" : "Chi tiết thông báo",
+  "no notification title": "Không tìm thấy thông báo nào!",
+  "no notification description" : "Bạn chưa nhận được bất kỳ thông báo nào. Đảm bảo bạn đã bật thông báo từ cài đặt.",
+
+  "settings": "cài đặt",
+  "general settings" : "Cấu hình chung",
+  "social settings" : "Thiết lập mạng xã hội",
+  "about app" : "Giới thiệu về ứng dụng",
+  "dark mode" : "chế độ tối",
+  "get notifications" : "Nhận thông báo",
+  "contact us" : "Liên hệ chúng tôi",
+  "rate this app" : "Đánh giá ứng dụng này",
+  "licence" : "Giấy phép",
+  "privacy policy" : "Chính sách bảo mật",
+  "about us" : "Về chúng tôi",
+  "logout" : "đăng xuất",
+  "our website" : "Website của chúng tôi",
+  "facebook page" : "Trang Facebook",
+  "youtube channel" : "Kênh Youtube",
+
+  "logout title" : "Đăng xuất?",
+  "logout description" : "Bạn có thực sự muốn đăng xuất khỏi ứng dụng? Bạn sẽ mất tất cả dữ liệu đã lưu. Tiếp tục?",
+
+  "language" : "Ngôn ngữ",
+  "select language" : "Chọn ngôn ngữ",
+
+  "explore" : "Trang chủ",
+  "videos" : "Videos",
+  "video contents": "Bài viết có video",
+  "twitter": "Twitter",
+  "bookmark": "đánh dấu",
+  "bookmarks": "đánh dấu",
+
+  "clear all notification-dialog": "Bạn có muốn xóa tất cả dữ liệu thông báo?",
+  "clear all bookmark-dialog": "Bạn có muốn xóa tất cả các bài viết đã lưu?",
+
+  "buy now" : "mua ứng dụng này",
+  "buy now subtitle" : "Mua mã nguồn đầy đủ tại đây",
+
+  "accept terms": "Chấp nhận các điều khoản và điều kiện",
+  "flag comment" : "đánh dấu bình luận này",
+  "unflag comment" : "Bỏ đánh dấu nhận xét này",
+  "report" : "Báo cáo",
+  "report-info" : "Báo cáo của bạn đã được gửi thành công đến quản trị viên.",
+  "comment flagged" : "Nhận xét này đã được gắn cờ!",
+  "security": "Bảo vệ",
+
+  "forgot-password": "Bạn đã quên mật khẩu của mình?",
+  "reset-password": "Đặt lại mật khẩu của bạn",
+  "account-delete": "Xóa tài khoản của tôi",
+  "account-delete-confirm": "Có, xóa tài khoản của tôi",
+  "submit": "Xác nhận"
+  
+
+
+
+}
