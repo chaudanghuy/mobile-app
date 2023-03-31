@@ -365,7 +365,7 @@
 				DEVELOPMENT_TEAM = V2M9M9Y2D3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = gac8;
+				INFOPLIST_KEY_CFBundleDisplayName = Gac8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,7 +501,7 @@
 				DEVELOPMENT_TEAM = V2M9M9Y2D3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = gac8;
+				INFOPLIST_KEY_CFBundleDisplayName = Gac8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +531,7 @@
 				DEVELOPMENT_TEAM = V2M9M9Y2D3;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = gac8;
+				INFOPLIST_KEY_CFBundleDisplayName = Gac8;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

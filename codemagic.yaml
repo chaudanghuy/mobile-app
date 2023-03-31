@@ -41,11 +41,11 @@ workflows:
     publishing:
       email:
         recipients:
-          - user_1@example.com
-          - user_2@example.com
+          - namdatuoc11@gmail.com
+          - chaudanghuy@gmail.com
         notify:
           success: true
-          failure: false
+          failure: true
       app_store_connect:
         auth: integration
 

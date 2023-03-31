@@ -20,6 +20,8 @@
 	</array>
 	<key>CFBundleName</key>
 	<string>Đọc Báo Mỗi Ngày</string>
+	<key>CFBundleDisplayName</key>
+	<string>Gác 8 - Đọc Báo Mỗi Ngày</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
