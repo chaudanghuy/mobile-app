@@ -16,10 +16,9 @@ class BuyNowWidget extends StatelessWidget {
           height: 15,
         ),
         Container(
-          padding:
-              EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10),
-          decoration: BoxDecoration(
-              color: Theme.of(context).colorScheme.onPrimary),
+          padding: EdgeInsets.only(left: 20, right: 20, top: 10, bottom: 10),
+          decoration:
+              BoxDecoration(color: Theme.of(context).colorScheme.onPrimary),
           child: ListTile(
             contentPadding: EdgeInsets.all(0),
             isThreeLine: false,
@@ -47,7 +46,7 @@ class BuyNowWidget extends StatelessWidget {
                   color: Theme.of(context).colorScheme.secondary),
             ).tr(),
             trailing: Icon(Feather.chevron_right),
-            onTap: () => AppService().openLinkWithCustomTab(context, "https://codecanyon.net/item/newsfreak-flutter-news-app-for-wordpress/32743254"),
+            onTap: () => AppService().openLinkWithCustomTab(context, "#"),
           ),
         ),
       ],
