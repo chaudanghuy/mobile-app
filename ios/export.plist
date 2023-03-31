@@ -9,10 +9,10 @@
     <key>provisioningProfiles</key>
     <dict>
         <key>com.akn.gac8</key>
-        <string>Provisioning profile name</string>
+        <string>G8_Pro_Cert</string>
     </dict>
     <key>signingCertificate</key>
-    <string>iOS Distribution</string>
+    <string>G8_Sign_Cert</string>
     <key>signingStyle</key>
     <string>manual</string>
     <key>stripSwiftSymbols</key>
