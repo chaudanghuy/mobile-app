@@ -7,8 +7,6 @@ workflows:
         vars:
           APP_ID: 6447049318
         ios_signing:
-          distribution_type: app_store
-          bundle_identifier: com.akn.gac8
           provisioning_profiles:
             - G8_Pro_Cert
           certificates:
