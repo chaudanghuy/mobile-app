@@ -12,7 +12,7 @@
         <string>G8_Pro_Cert</string>
     </dict>
     <key>signingCertificate</key>
-    <string>G8_Sign_Cert</string>
+    <string>iOS Distribution</string>
     <key>signingStyle</key>
     <string>manual</string>
     <key>stripSwiftSymbols</key>
