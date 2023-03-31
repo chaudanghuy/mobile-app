@@ -1,8 +1,7 @@
 workflows:
-  ios-native-workflow:
+  ios-workflow:
     name: Gác 8 - Đọc Báo Mỗi Ngày
     max_build_duration: 120
-    instance_type: mac_mini_m1
     integrations:
       app_store_connect: G8 News App
     environment:
@@ -10,41 +9,43 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.akn.gac8
       vars:
-        BUNDLE_ID: "com.akn.gac8"
-        XCODE_WORKSPACE: "CodemagicSample.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "CodemagicSample" # <-- Put the name of your Xcode scheme here
-        APP_ID: 1555555551
-      xcode: latest
-      cocoapods: default
+        APP_ID: 6447049318
+      flutter: stable
     scripts:
-      - name: Install CocoaPods dependencies
+      - name: Set up code signing settings on Xcode project
         script: | 
-          pod install
-      - name: Set up provisioning profiles settings on Xcode project
-        script: xcode-project use-profiles
-      - name: Increment build number
+          xcode-project use-profiles
+      - name: Get Flutter packages
         script: | 
-          cd $CM_BUILD_DIR
-          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_ID")
-          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
-      - name: Build ipa for distribution
+          flutter packages pub get
+      - name: Install pods
         script: | 
-          xcode-project build-ipa \
-            --project "MyXcodeProject.xcodeproj" \
-            --scheme "$XCODE_SCHEME"
+          find . -name "Podfile" -execdir pod install \;
+      - name: Flutter analyze
+        script: | 
+          flutter analyze
+      - name: Flutter unit tests
+        script: | 
+          flutter test
+        ignore_failure: true
+      - name: Flutter build ipa
+        script: | 
+          flutter build ipa --release \
+            --build-name=1.0.0 \
+            --build-number=$(($(app-store-connect get-latest-app-store-build-number "$APP_ID") + 1)) \
+            --export-options-plist=/Users/builder/export_options.plist
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
-      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
-      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+      - flutter_drive.log
     publishing:
       email:
         recipients:
-          - namdatuoc11@gmail.com
-          - chaudanghuy@gmail.com
+          - user_1@example.com
+          - user_2@example.com
         notify:
           success: true
-          failure: true
+          failure: false
       app_store_connect:
         auth: integration
 
